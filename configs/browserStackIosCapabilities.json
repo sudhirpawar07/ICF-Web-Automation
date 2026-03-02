@@ -1,0 +1,13 @@
+[
+    {
+        "platformName": "iOS",
+        "bstack:options": 
+        {
+            "deviceName": "iPhone 14",
+            "orientation": "PORTRAIT",
+            "osVersion": "16.0",
+             "buildName": "IOS Test Build",
+            "projectName": "My WDIO Project",
+            "debug": true
+        }
+    }]

@@ -1,0 +1,8 @@
+[{
+    "platformName": "Android",
+    "deviceName": "Medium_Phone_API_35",
+    "platformVersion": "15.0",
+    "app": "<path>/android.wdio.native.app.v1.0.8.apk",
+    "automationName": "UiAutomator2",
+    "noReset": true
+}]

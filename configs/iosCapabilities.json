@@ -1,0 +1,13 @@
+[{ 
+    "appium:platformName": "iOS",
+    "appium:platformVersion": "18.2", 
+    "appium:deviceName": "iPhone 16", 
+    "appium:app": "<path>/wdiodemoapp.app",
+       "appium:automationName": "XCUITest",
+    "appium:noReset": false,
+    "appium:fullContextList": true,
+    "appium:clearSystemFiles": true,
+    "appium:appWaitForLaunch": true,
+    "appium:useNewWDA": false,
+    "appium:usePrebuildWDA": true
+}]

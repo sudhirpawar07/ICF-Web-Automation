@@ -1,0 +1,13 @@
+[
+    {
+        "platformName": "Android",
+        "bstack:options": 
+        {
+            "deviceName": "Samsung Galaxy S22",
+            "osVersion": "12.0",
+             "buildName": "Android Test Build",
+            "projectName": "My WDIO Project",
+            "debug": true
+        }
+    }
+]

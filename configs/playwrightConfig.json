@@ -1,0 +1,83 @@
+{
+    "dev": {
+      "baseURL": "https://www.saucedemo.com/v1/index.html",
+      "apiKey": "dev-api-key",
+      "timeout": 20000,
+      "backendHostingUrl":"https://reqres.in"
+    },
+    "qa": {
+      "baseURL": "https://amazon.in",
+      "apiKey": "qa-api-key",
+      "timeout": 30000,
+      "backendHostingUrl":"https://reqres.in"
+    },
+    "prod": {
+      "baseURL": "https://flipkart.com",
+      "backendHostingUrl":"https://reqres.in"
+    },
+    "headless":false,
+    "testAllBrowsers":[
+      {
+        "name": "chromium",
+        "use": { "browserName": "chromium" },
+        "testMatch": ["**/saucelab-cart.test.ts"]
+      },
+      {
+        "name": "firefox",
+        "use": { "browserName": "firefox" },
+        "testMatch": ["**/saucelab-login.test.ts"]
+      },
+      {
+        "name": "webkit",
+        "use": { "browserName": "webkit" },
+        "testMatch": ["**/saucelab-purchase.test.ts"]
+      },
+      {
+        "name": "Microsoft Edge",
+        "use": {
+          "device": "Desktop Edge",
+          "channel": "msedge"
+        },
+        "testMatch": ["**/saucelab-product.test.ts"]
+      }
+    ] ,
+    "testChrome":[
+      {
+        "name": "chromium",
+        "use": { "browserName": "chromium" },
+        "testMatch": ["**/*.test.ts"],
+        "testIgnore": "**/api.test.ts"
+      }
+    ],
+    "testSafari":[
+      {
+        "name": "webkit",
+        "use": { "browserName": "webkit" },
+        "testMatch": ["**/*.test.ts"]
+      }
+    ],
+    "testFirefox":[
+      {
+        "name": "firefox",
+        "use": { "browserName": "firefox" },
+        "testMatch": ["**/*.test.ts"]
+      }
+    ],
+    "testEdge":[
+      {
+        "name": "Microsoft Edge",
+        "use": {
+          "device": "Desktop Edge",
+          "channel": "msedge"
+        },
+        "testMatch": ["**/*.test.ts"]
+      }
+    ],
+    "testApi":[
+      {
+         "name": "API Tests",
+         "testMatch": ["**/*.test.ts"]
+      }
+    ]
+  }
+  
