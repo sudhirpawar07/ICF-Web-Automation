@@ -1,0 +1,817 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - navigation [ref=e4]:
+      - link "ICF logo ICF" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img "ICF logo" [ref=e7]
+        - img "ICF" [ref=e8]
+      - link "open and close site search pane" [ref=e10] [cursor=pointer]:
+        - /url: ""
+        - img [ref=e14]
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - link "open and close Industries subnavigation" [ref=e21] [cursor=pointer]:
+            - /url: ""
+            - generic [ref=e22]:
+              - generic [ref=e23]: Industries
+              - img [ref=e25]
+          - generic [ref=e31]:
+            - generic [ref=e32]:
+              - generic [ref=e33]:
+                - link [ref=e34] [cursor=pointer]:
+                  - /url: /work
+                  - text: Industries
+                  - img [ref=e36]
+                - generic [ref=e38]: Powerful solutions that drive innovation and deliver results.
+              - generic [ref=e39]:
+                - generic [ref=e40]: Our Expertise
+                - list [ref=e41]:
+                  - listitem [ref=e42]:
+                    - link [ref=e43] [cursor=pointer]:
+                      - /url: /work/utilities
+                      - generic [ref=e44]: Utilities
+                  - listitem [ref=e45]:
+                    - link [ref=e46] [cursor=pointer]:
+                      - /url: /work/disaster-management
+                      - generic [ref=e47]: Disaster management
+                  - listitem [ref=e48]:
+                    - link [ref=e49] [cursor=pointer]:
+                      - /url: /work/transportation
+                      - generic [ref=e50]: Transportation
+                  - listitem [ref=e51]:
+                    - link [ref=e52] [cursor=pointer]:
+                      - /url: /work/transportation/aviation
+                      - generic [ref=e53]: Aviation
+                  - listitem [ref=e54]:
+                    - link [ref=e55] [cursor=pointer]:
+                      - /url: /work/federal-health
+                      - generic [ref=e56]: Federal health
+                  - listitem [ref=e57]:
+                    - link [ref=e58] [cursor=pointer]:
+                      - /url: /work/energy-project-development
+                      - generic [ref=e59]: Energy
+                  - listitem [ref=e60]:
+                    - link [ref=e61] [cursor=pointer]:
+                      - /url: /work/environment
+                      - generic [ref=e62]: Environmental services and infrastructure
+                  - listitem [ref=e63]:
+                    - link [ref=e64] [cursor=pointer]:
+                      - /url: /work/climate
+                      - generic [ref=e65]: Climate
+                  - listitem [ref=e66]:
+                    - link [ref=e67] [cursor=pointer]:
+                      - /url: /work/social-programs
+                      - generic [ref=e68]: Community and economic development
+                  - listitem [ref=e69]:
+                    - link [ref=e70] [cursor=pointer]:
+                      - /url: /work/us-federal-government
+                      - generic [ref=e71]: U.S. federal
+                  - listitem [ref=e72]:
+                    - link [ref=e73] [cursor=pointer]:
+                      - /url: /work/state-local-government
+                      - generic [ref=e74]: State and local government
+                  - listitem [ref=e75]:
+                    - link [ref=e76] [cursor=pointer]:
+                      - /url: /company/locations/uk
+                      - generic [ref=e77]: UK government
+                  - listitem [ref=e78]:
+                    - link [ref=e79] [cursor=pointer]:
+                      - /url: /company/locations/european-region
+                      - generic [ref=e80]: European government
+            - link [ref=e83] [cursor=pointer]:
+              - /url: /clients
+              - img [ref=e85]
+              - generic [ref=e87]:
+                - text: Client stories
+                - img [ref=e89]
+              - generic [ref=e91]: See how we help fast-changing industries succeed.
+        - generic [ref=e92]:
+          - link "open and close Capabilities subnavigation" [ref=e93] [cursor=pointer]:
+            - /url: ""
+            - generic [ref=e94]:
+              - generic [ref=e95]: Capabilities
+              - img [ref=e97]
+          - generic [ref=e103]:
+            - generic [ref=e104]:
+              - generic [ref=e105]:
+                - link [ref=e106] [cursor=pointer]:
+                  - /url: /work
+                  - text: Capabilities
+                  - img [ref=e108]
+                - generic [ref=e110]: Applying technology and expertise to deliver bold, lasting impact.
+              - generic [ref=e111]:
+                - generic [ref=e112]:
+                  - generic [ref=e113]: Technology
+                  - list [ref=e114]:
+                    - listitem [ref=e115]:
+                      - link [ref=e116] [cursor=pointer]:
+                        - /url: /work/federal-it-modernization
+                        - generic [ref=e117]: Digital modernization
+                    - listitem [ref=e118]:
+                      - link [ref=e119] [cursor=pointer]:
+                        - /url: /work/enterprise-ai
+                        - generic [ref=e120]: Artificial intelligence
+                    - listitem [ref=e121]:
+                      - link [ref=e122] [cursor=pointer]:
+                        - /url: /work/data-analytics
+                        - generic [ref=e123]: Data and analytics
+                    - listitem [ref=e124]:
+                      - link [ref=e125] [cursor=pointer]:
+                        - /url: /next/capabilities/business-transformation/customer-experience-strategy-design
+                        - generic [ref=e126]: Experience and design
+                    - listitem [ref=e127]:
+                      - link [ref=e128] [cursor=pointer]:
+                        - /url: /work/enterprise-cloud-solutions
+                        - generic [ref=e129]: Cloud
+                    - listitem [ref=e130]:
+                      - link [ref=e131] [cursor=pointer]:
+                        - /url: /work/cybersecurity
+                        - generic [ref=e132]: Cybersecurity
+                    - listitem [ref=e133]:
+                      - link [ref=e134] [cursor=pointer]:
+                        - /url: /company/about/partners/partnership-ecosystem
+                        - generic [ref=e135]:
+                          - text: Partner ecosystem
+                          - img [ref=e137]
+                - generic [ref=e140]:
+                  - generic [ref=e141]: Solutions
+                  - list [ref=e142]:
+                    - listitem [ref=e143]:
+                      - link [ref=e144] [cursor=pointer]:
+                        - /url: /work/program-implementation
+                        - generic [ref=e145]: Program implementation
+                    - listitem [ref=e146]:
+                      - link [ref=e147] [cursor=pointer]:
+                        - /url: /work/advisory
+                        - generic [ref=e148]: Strategy and innovation
+                    - listitem [ref=e149]:
+                      - link [ref=e150] [cursor=pointer]:
+                        - /url: /work/human-capital
+                        - generic [ref=e151]: Workforce and change management
+                    - listitem [ref=e152]:
+                      - link [ref=e153] [cursor=pointer]:
+                        - /url: /work/regulatory-policy
+                        - generic [ref=e154]: Policy and regulatory
+                    - listitem [ref=e155]:
+                      - link [ref=e156] [cursor=pointer]:
+                        - /url: /work/program-implementation/grants-management
+                        - generic [ref=e157]: Grants management
+                    - listitem [ref=e158]:
+                      - link [ref=e159] [cursor=pointer]:
+                        - /url: /next/capabilities/integrated-communications
+                        - generic [ref=e160]: Strategic communications
+            - generic [ref=e162]:
+              - link [ref=e163] [cursor=pointer]:
+                - /url: /work/enterprise-ai/fathom-ai
+                - img [ref=e165]
+                - generic [ref=e167]:
+                  - text: ICF Fathom
+                  - img [ref=e169]
+                - generic [ref=e171]: Explore our suite of AI solutions and services
+              - link [ref=e172] [cursor=pointer]:
+                - /url: /next
+                - generic [ref=e174]:
+                  - img [ref=e175]
+                  - img [ref=e177]
+                - generic [ref=e179]: Strategic agency for engagement and transformation.
+        - generic [ref=e180]:
+          - link "open and close Insights subnavigation" [ref=e181] [cursor=pointer]:
+            - /url: ""
+            - generic [ref=e182]:
+              - generic [ref=e183]: Insights
+              - img [ref=e185]
+          - generic [ref=e191]:
+            - generic [ref=e192]:
+              - generic [ref=e193]:
+                - link [ref=e194] [cursor=pointer]:
+                  - /url: /insights
+                  - text: Insights
+                  - img [ref=e196]
+                - generic [ref=e198]: Stay ahead with research, insights, and success stories developed by industry experts.
+              - generic [ref=e199]:
+                - generic [ref=e200]:
+                  - generic [ref=e201]: Trending topics
+                  - list [ref=e202]:
+                    - listitem [ref=e203]:
+                      - link [ref=e204] [cursor=pointer]:
+                        - /url: /insights/health/healthcare-fraud-waste-abuse-ai
+                        - generic [ref=e205]: Using AI against fraud, waste, and abuse
+                    - listitem [ref=e206]:
+                      - link [ref=e207] [cursor=pointer]:
+                        - /url: /insights/artificial-intelligence
+                        - generic [ref=e208]: AI innovation
+                    - listitem [ref=e209]:
+                      - link [ref=e210] [cursor=pointer]:
+                        - /url: /insights/grid-modernization
+                        - generic [ref=e211]: Grid modernization
+                    - listitem [ref=e212]:
+                      - link [ref=e213] [cursor=pointer]:
+                        - /url: /insights/workforce
+                        - generic [ref=e214]: Workforce development
+                    - listitem [ref=e215]:
+                      - link [ref=e216] [cursor=pointer]:
+                        - /url: /insights/disaster-mitigation
+                        - generic [ref=e217]: Extreme weather resilience
+                - generic [ref=e219]:
+                  - generic [ref=e220]: Latest thinking
+                  - list [ref=e221]:
+                    - listitem [ref=e222]:
+                      - link [ref=e223] [cursor=pointer]:
+                        - /url: /insights?types=article
+                        - generic [ref=e224]: Articles
+                    - listitem [ref=e225]:
+                      - link [ref=e226] [cursor=pointer]:
+                        - /url: /clients
+                        - generic [ref=e227]: Client stories
+                    - listitem [ref=e228]:
+                      - link [ref=e229] [cursor=pointer]:
+                        - /url: /news
+                        - generic [ref=e230]: News
+                    - listitem [ref=e231]:
+                      - link [ref=e232] [cursor=pointer]:
+                        - /url: /insights?types=report
+                        - generic [ref=e233]: Reports
+                    - listitem [ref=e234]:
+                      - link [ref=e235] [cursor=pointer]:
+                        - /url: /insights/webinars
+                        - generic [ref=e236]: Webinars
+                    - listitem [ref=e237]:
+                      - link [ref=e238] [cursor=pointer]:
+                        - /url: /insights?types=smart-chart
+                        - generic [ref=e239]: Smart charts
+            - generic [ref=e241]:
+              - link [ref=e242] [cursor=pointer]:
+                - /url: /insights/technology/data-ai-trends-federal-government-report-2025
+                - img [ref=e244]
+                - generic [ref=e246]:
+                  - text: Top federal AI trends
+                  - img [ref=e248]
+                - generic [ref=e250]: From pilots to impact
+              - link [ref=e251] [cursor=pointer]:
+                - /url: /insights/energy/impact-rapid-demand-growth-us
+                - generic [ref=e253]:
+                  - text: The impact of rapid demand growth
+                  - img [ref=e255]
+                - generic [ref=e257]: Key recommendations for utilities
+        - generic [ref=e258]:
+          - link "open and close About subnavigation" [ref=e259] [cursor=pointer]:
+            - /url: ""
+            - generic [ref=e260]:
+              - generic [ref=e261]: About
+              - img [ref=e263]
+          - generic [ref=e270]:
+            - generic [ref=e271]:
+              - link [ref=e272] [cursor=pointer]:
+                - /url: /company/about
+                - text: About
+                - img [ref=e274]
+              - generic [ref=e276]: A leading global company turning data into insights and innovation into impact.
+            - generic [ref=e277]:
+              - generic [ref=e278]: About ICF
+              - generic [ref=e279]:
+                - list [ref=e280]:
+                  - listitem [ref=e281]:
+                    - link [ref=e282] [cursor=pointer]:
+                      - /url: /news
+                      - generic [ref=e283]: News
+                  - listitem [ref=e284]:
+                    - link [ref=e285] [cursor=pointer]:
+                      - /url: /company/about/leadership
+                      - generic [ref=e286]: Leadership
+                  - listitem [ref=e287]:
+                    - link [ref=e288] [cursor=pointer]:
+                      - /url: /history
+                      - generic [ref=e289]: History
+                  - listitem [ref=e290]:
+                    - link [ref=e291] [cursor=pointer]:
+                      - /url: /company/about/corporate-citizenship
+                      - generic [ref=e292]: Corporate Citizenship
+                  - listitem [ref=e293]:
+                    - link [ref=e294] [cursor=pointer]:
+                      - /url: /company/ethics-and-compliance
+                      - generic [ref=e295]: Ethics and compliance
+                  - listitem [ref=e296]:
+                    - link [ref=e297] [cursor=pointer]:
+                      - /url: /company/about/data-privacy
+                      - generic [ref=e298]: Data privacy
+                  - listitem [ref=e299]:
+                    - link [ref=e300] [cursor=pointer]:
+                      - /url: /contracts
+                      - generic [ref=e301]: Contracts
+                  - listitem [ref=e302]:
+                    - link [ref=e303] [cursor=pointer]:
+                      - /url: /company/locations
+                      - generic [ref=e304]: Locations
+                - list [ref=e306]:
+                  - listitem [ref=e307]:
+                    - link [ref=e308] [cursor=pointer]:
+                      - /url: /company/locations/european-region
+                      - generic [ref=e309]: Europe and U.K.
+                      - generic [ref=e310]: Learn about our work with governments, businesses, and organizations in Europe and the U.K.
+            - generic [ref=e312]:
+              - text: Need help or want to learn more?
+              - link [ref=e313] [cursor=pointer]:
+                - /url: /contact-us
+                - text: Contact us
+                - img [ref=e315]
+        - link "Careers" [ref=e318] [cursor=pointer]:
+          - /url: https://careers.icf.com/
+          - generic [ref=e320]: Careers
+        - link "Investors" [ref=e322] [cursor=pointer]:
+          - /url: https://investor.icf.com/
+          - generic [ref=e324]: Investors
+    - generic [ref=e326]:
+      - search [ref=e327]:
+        - generic [ref=e330]:
+          - combobox [ref=e332]
+          - button [ref=e333] [cursor=pointer]:
+            - img [ref=e335]
+      - generic [ref=e340]:
+        - generic [ref=e342]:
+          - generic [ref=e343]: Popular Searches
+          - list [ref=e344]:
+            - listitem [ref=e345]:
+              - link [ref=e346] [cursor=pointer]:
+                - /url: /search?q=Federal+IT+modernization
+                - text: Federal IT modernization
+            - listitem [ref=e347]:
+              - link [ref=e348] [cursor=pointer]:
+                - /url: /search?q=Artificial+intelligence
+                - text: Artificial intelligence
+            - listitem [ref=e349]:
+              - link [ref=e350] [cursor=pointer]:
+                - /url: /search?q=Disaster+mitigation
+                - text: Disaster mitigation
+            - listitem [ref=e351]:
+              - link [ref=e352] [cursor=pointer]:
+                - /url: /search?q=Energy+efficiency
+                - text: Energy efficiency
+            - listitem [ref=e353]:
+              - link [ref=e354] [cursor=pointer]:
+                - /url: /search?q=Federal+health
+                - text: Federal health
+        - generic [ref=e356]:
+          - generic [ref=e357]: Featured
+          - generic [ref=e359]:
+            - link [ref=e360] [cursor=pointer]:
+              - /url: /work/federal-it-modernization
+              - text: Learn more
+              - img [ref=e362]
+            - generic [ref=e364]: Federal IT modernization services
+  - main [ref=e366]:
+    - generic [ref=e368]:
+      - generic [ref=e369]:
+        - group "1 / 3":
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic "DataCenter_Hero_01"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - 'button "Play Video: DataCenter_Hero_01"'
+                          - generic: The video is loading...
+          - generic:
+            - generic: DATA CENTER SOLUTIONS
+            - generic:
+              - heading "The race to build data centers is on" [level=1]
+            - generic: Accelerate development while safeguarding affordability, grid reliability, and community trust.
+            - generic:
+              - generic:
+                - link "Learn More":
+                  - /url: /work/utilities/data-centers
+        - group "2 / 3":
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic "Sightline Video Hero"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - 'button "Play Video: Sightline Video Hero"'
+                          - generic: The video is loading...
+          - generic:
+            - generic: CUSTOMER ENGAGEMENT
+            - generic:
+              - heading "The most trusted utility platform just got better" [level=2]
+            - generic:
+              - text: Introducing the new Sightline
+              - superscript: ®
+              - text: . Now responsibly powered with AI.
+            - generic:
+              - generic:
+                - link "Learn More":
+                  - /url: /work/utilities/sightline-utility-customer-programs
+        - group "3 / 3" [ref=e370]:
+          - generic [ref=e377]:
+            - generic "fathom_homepage_hero" [ref=e379]
+            - generic [ref=e381]:
+              - generic [ref=e382]:
+                - generic:
+                  - 'button "Pause: fathom_homepage_hero"'
+              - generic [ref=e383]: The video is loading...
+          - generic [ref=e384]:
+            - generic [ref=e385]: AGENTIC AI
+            - 'heading "ICF Fathom: Your AI advantage starts now" [level=2] [ref=e387]'
+            - generic [ref=e388]: Deploy AI faster—with more flexibility, stronger security, and even more impact.
+            - link "LEARN MORE" [ref=e391] [cursor=pointer]:
+              - /url: /work/enterprise-ai/fathom-ai
+      - button "pause autoplay" [ref=e393] [cursor=pointer]:
+        - img [ref=e395]
+      - generic [ref=e399]:
+        - button "Data Centers" [ref=e400] [cursor=pointer]:
+          - generic [ref=e401]: Data Centers
+        - button "ICF Sightline" [ref=e403] [cursor=pointer]:
+          - generic [ref=e404]: ICF Sightline
+        - button "ICF Fathom" [ref=e406] [cursor=pointer]:
+          - generic [ref=e407]: ICF Fathom
+    - generic [ref=e411]:
+      - link "Report U.S. natural gas outlook through 2030 How demand growth, price volatility, and infrastructure challenges define the U.S. natural gas outlook. Learn More" [ref=e412] [cursor=pointer]:
+        - /url: /insights/energy/future-forecast-price-of-natural-gas
+        - generic [ref=e414]:
+          - generic [ref=e415]: Report
+          - heading "U.S. natural gas outlook through 2030" [level=2] [ref=e416]
+          - generic [ref=e417]: How demand growth, price volatility, and infrastructure challenges define the U.S. natural gas outlook.
+          - generic [ref=e418]:
+            - text: Learn More
+            - img [ref=e419]
+      - generic [ref=e421]:
+        - link "Article Effective AI use cases for federal agencies" [ref=e422] [cursor=pointer]:
+          - /url: /insights/analytics/ai-government-use-cases
+          - generic [ref=e424]: Article
+          - heading "Effective AI use cases for federal agencies" [level=2] [ref=e425]
+        - link "Article Regulatory trends shaping utility customer programs in 2026" [ref=e426] [cursor=pointer]:
+          - /url: /insights/energy/regulatory-trends-utility-customer-programs
+          - generic [ref=e428]: Article
+          - heading "Regulatory trends shaping utility customer programs in 2026" [level=2] [ref=e429]
+        - link "Article State and local strategies to build energy programs in any funding environment" [ref=e430] [cursor=pointer]:
+          - /url: /insights/energy/best-practices-energy-resilience-programs-state-local
+          - generic [ref=e432]: Article
+          - heading "State and local strategies to build energy programs in any funding environment" [level=2] [ref=e433]
+    - link "Florida Awards ICF Comprehensive Management Services Contract Learn more arrow-up-right@2x" [ref=e434] [cursor=pointer]:
+      - /url: /news/2026/02/florida-awards-icf-comprehensive-management-services-contract
+      - generic [ref=e435]:
+        - generic [ref=e436]:
+          - generic [ref=e437]: Florida Awards ICF Comprehensive Management Services Contract
+          - generic [ref=e438]:
+            - text: Learn more
+            - img [ref=e439]
+        - img "arrow-up-right@2x" [ref=e442]
+    - generic [ref=e447]:
+      - generic [ref=e448]:
+        - heading "Join us online" [level=2] [ref=e449]
+        - link "Explore all webinars" [ref=e450] [cursor=pointer]:
+          - /url: https://www.icf.com/insights/webinars
+          - text: Explore all webinars
+          - img [ref=e451]
+      - generic [ref=e453]:
+        - link "How Georgia Power is managing rapid demand growth" [ref=e454] [cursor=pointer]:
+          - /url: /insights/energy/how-georgia-power-manages-rapid-demand-growth
+          - heading "How Georgia Power is managing rapid demand growth" [level=2] [ref=e456]
+        - link "Modernizing data systems and harnessing AI in the public health system" [ref=e457] [cursor=pointer]:
+          - /url: /insights/health/modernizing-data-systems-ai-public-health
+          - heading "Modernizing data systems and harnessing AI in the public health system" [level=2] [ref=e459]
+        - link "Unlock the power of data center load flexibility" [ref=e460] [cursor=pointer]:
+          - /url: /insights/energy/unlocking-power-of-data-center-load-flexibility
+          - heading "Unlock the power of data center load flexibility" [level=2] [ref=e462]
+    - generic [ref=e464]:
+      - generic [ref=e465]:
+        - heading "Featured client stories" [level=2] [ref=e466]
+        - link "Explore all" [ref=e467] [cursor=pointer]:
+          - /url: /clients
+          - text: Explore all
+          - img [ref=e468]
+      - generic [ref=e470]:
+        - link "Client story Modernizing Navy inspections to enhance critical decision-making" [ref=e471] [cursor=pointer]:
+          - /url: /clients/technology/navy-inspections-modernization
+          - generic [ref=e473]: Client story
+          - heading "Modernizing Navy inspections to enhance critical decision-making" [level=2] [ref=e474]
+        - link "Client story How to reduce peak demand with smart home technologies" [ref=e475] [cursor=pointer]:
+          - /url: /clients/energy/reduce-peak-demand-smart-home-smeco
+          - generic [ref=e477]: Client story
+          - heading "How to reduce peak demand with smart home technologies" [level=2] [ref=e478]
+        - link "Client story Modernization effort saves agency millions and restores mission focus" [ref=e479] [cursor=pointer]:
+          - /url: /clients/technology/automating-modernizing-processes-federal
+          - generic [ref=e481]: Client story
+          - heading "Modernization effort saves agency millions and restores mission focus" [level=2] [ref=e482]
+    - generic [ref=e484]:
+      - generic [ref=e485]: Talk to an expert today
+      - link "Contact Us" [ref=e487] [cursor=pointer]:
+        - /url: /contact-us
+  - contentinfo [ref=e488]:
+    - generic [ref=e489]:
+      - generic [ref=e490]:
+        - generic [ref=e491]: Our client stories
+        - generic [ref=e492]: Discover how we help clients achieve success.
+        - link "Learn more" [ref=e493] [cursor=pointer]:
+          - /url: /clients
+          - text: Learn more
+          - img [ref=e495]
+      - generic [ref=e497]:
+        - generic [ref=e498]: Insights in your inbox
+        - generic [ref=e499]: Receive perspectives on the industries and issues that matter.
+        - link "Subscribe" [ref=e500] [cursor=pointer]:
+          - /url: /insights-subscription
+          - text: Subscribe
+          - img [ref=e502]
+    - navigation [ref=e504]:
+      - generic [ref=e505]:
+        - generic [ref=e507]:
+          - link "Industries and capabilities" [ref=e509] [cursor=pointer]:
+            - /url: /work
+            - text: Industries and capabilities
+            - img [ref=e511]
+          - generic [ref=e513]:
+            - list [ref=e515]:
+              - listitem [ref=e516]:
+                - link "Energy and utilities" [ref=e517] [cursor=pointer]:
+                  - /url: /work/utilities
+                  - text: Energy and utilities
+                  - img [ref=e519]
+              - listitem [ref=e521]:
+                - link "Federal health" [ref=e522] [cursor=pointer]:
+                  - /url: /work/federal-health
+                  - text: Federal health
+                  - img [ref=e524]
+              - listitem [ref=e526]:
+                - link "Disaster management" [ref=e527] [cursor=pointer]:
+                  - /url: /work/disaster-management
+                  - text: Disaster management
+                  - img [ref=e529]
+              - listitem [ref=e531]:
+                - link "Transportation" [ref=e532] [cursor=pointer]:
+                  - /url: /work/transportation
+                  - text: Transportation
+                  - img [ref=e534]
+              - listitem [ref=e536]:
+                - link "Environmental services" [ref=e537] [cursor=pointer]:
+                  - /url: /work/environment
+                  - text: Environmental services
+                  - img [ref=e539]
+              - listitem [ref=e541]:
+                - link "Climate resilience" [ref=e542] [cursor=pointer]:
+                  - /url: /work/climate
+                  - text: Climate resilience
+                  - img [ref=e544]
+              - listitem [ref=e546]:
+                - link "Aviation" [ref=e547] [cursor=pointer]:
+                  - /url: /work/transportation/aviation
+                  - text: Aviation
+                  - img [ref=e549]
+              - listitem [ref=e551]:
+                - link "U.S. federal" [ref=e552] [cursor=pointer]:
+                  - /url: /work/us-federal-government
+                  - text: U.S. federal
+                  - img [ref=e554]
+              - listitem [ref=e556]:
+                - link "Social programs" [ref=e557] [cursor=pointer]:
+                  - /url: /work/social-programs
+                  - text: Social programs
+                  - img [ref=e559]
+            - list [ref=e562]:
+              - listitem [ref=e563]:
+                - link "Digital modernization" [ref=e564] [cursor=pointer]:
+                  - /url: /work/federal-it-modernization
+                  - text: Digital modernization
+                  - img [ref=e566]
+              - listitem [ref=e568]:
+                - link "Artificial intelligence" [ref=e569] [cursor=pointer]:
+                  - /url: /work/enterprise-ai
+                  - text: Artificial intelligence
+                  - img [ref=e571]
+              - listitem [ref=e573]:
+                - link "Data and analytics" [ref=e574] [cursor=pointer]:
+                  - /url: /work/data-analytics
+                  - text: Data and analytics
+                  - img [ref=e576]
+              - listitem [ref=e578]:
+                - link "Experience and design" [ref=e579] [cursor=pointer]:
+                  - /url: /next/capabilities/business-transformation/customer-experience-strategy-design
+                  - text: Experience and design
+                  - img [ref=e581]
+              - listitem [ref=e583]:
+                - link "Cloud" [ref=e584] [cursor=pointer]:
+                  - /url: /work/enterprise-cloud-solutions
+                  - text: Cloud
+                  - img [ref=e586]
+              - listitem [ref=e588]:
+                - link "Cybersecurity" [ref=e589] [cursor=pointer]:
+                  - /url: /work/cybersecurity
+                  - text: Cybersecurity
+                  - img [ref=e591]
+              - listitem [ref=e593]:
+                - link "Program implementation" [ref=e594] [cursor=pointer]:
+                  - /url: /work/program-implementation
+                  - text: Program implementation
+                  - img [ref=e596]
+              - listitem [ref=e598]:
+                - link "Strategy and innovation" [ref=e599] [cursor=pointer]:
+                  - /url: /work/advisory
+                  - text: Strategy and innovation
+                  - img [ref=e601]
+              - listitem [ref=e603]:
+                - link "Change management" [ref=e604] [cursor=pointer]:
+                  - /url: /work/human-capital
+                  - text: Change management
+                  - img [ref=e606]
+              - listitem [ref=e608]:
+                - link "Policy and regulatory" [ref=e609] [cursor=pointer]:
+                  - /url: /work/regulatory-policy
+                  - text: Policy and regulatory
+                  - img [ref=e611]
+              - listitem [ref=e613]:
+                - link "Grants management" [ref=e614] [cursor=pointer]:
+                  - /url: /work/program-implementation/grants-management
+                  - text: Grants management
+                  - img [ref=e616]
+              - listitem [ref=e618]:
+                - link "Strategic communications" [ref=e619] [cursor=pointer]:
+                  - /url: /next/capabilities/integrated-communications
+                  - text: Strategic communications
+                  - img [ref=e621]
+              - listitem [ref=e623]:
+                - link "ICF Next Digital agency" [ref=e624] [cursor=pointer]:
+                  - /url: /next/capabilities
+                  - text: ICF Next
+                  - img [ref=e626]
+                  - generic [ref=e628]: Digital agency
+        - generic [ref=e629]:
+          - generic [ref=e630]:
+            - link "Partnerships" [ref=e632] [cursor=pointer]:
+              - /url: /company/about/partners
+              - text: Partnerships
+              - img [ref=e634]
+            - list [ref=e638]:
+              - listitem [ref=e639]:
+                - link "Partnership ecosystem" [ref=e640] [cursor=pointer]:
+                  - /url: /company/about/partners/partnership-ecosystem
+                  - text: Partnership ecosystem
+                  - img [ref=e642]
+              - listitem [ref=e644]:
+                - link "ICF suppliers" [ref=e645] [cursor=pointer]:
+                  - /url: /company/about/partners/suppliers
+                  - text: ICF suppliers
+                  - img [ref=e647]
+          - link "Client stories" [ref=e651] [cursor=pointer]:
+            - /url: /clients
+            - text: Client stories
+            - img [ref=e653]
+          - generic [ref=e655]:
+            - link "Insights" [ref=e657] [cursor=pointer]:
+              - /url: /insights
+              - text: Insights
+              - img [ref=e659]
+            - list [ref=e663]:
+              - listitem [ref=e664]:
+                - link "All topics" [ref=e665] [cursor=pointer]:
+                  - /url: /insights
+                  - text: All topics
+                  - img [ref=e667]
+              - listitem [ref=e669]:
+                - link "Marketing insights By ICF Next" [ref=e670] [cursor=pointer]:
+                  - /url: /insights/next
+                  - text: Marketing insights
+                  - img [ref=e672]
+                  - generic [ref=e674]: By ICF Next
+        - generic [ref=e676]:
+          - link "About ICF" [ref=e678] [cursor=pointer]:
+            - /url: /company/about
+            - text: About ICF
+            - img [ref=e680]
+          - list [ref=e684]:
+            - listitem [ref=e685]:
+              - link "News" [ref=e686] [cursor=pointer]:
+                - /url: /news
+                - text: News
+                - img [ref=e688]
+            - listitem [ref=e690]:
+              - link "Leadership" [ref=e691] [cursor=pointer]:
+                - /url: /company/about/leadership
+                - text: Leadership
+                - img [ref=e693]
+            - listitem [ref=e695]:
+              - link "History" [ref=e696] [cursor=pointer]:
+                - /url: /history
+                - text: History
+                - img [ref=e698]
+            - listitem [ref=e700]:
+              - link "Corporate Citizenship" [ref=e701] [cursor=pointer]:
+                - /url: /company/about/corporate-citizenship
+                - text: Corporate Citizenship
+                - img [ref=e703]
+            - listitem [ref=e705]:
+              - link "Ethics and compliance" [ref=e706] [cursor=pointer]:
+                - /url: /company/ethics-and-compliance
+                - text: Ethics and compliance
+                - img [ref=e708]
+            - listitem [ref=e710]:
+              - link "Data privacy" [ref=e711] [cursor=pointer]:
+                - /url: /company/about/data-privacy
+                - text: Data privacy
+                - img [ref=e713]
+            - listitem [ref=e715]:
+              - link "Contracts" [ref=e716] [cursor=pointer]:
+                - /url: /contracts
+                - text: Contracts
+                - img [ref=e718]
+            - listitem [ref=e720]:
+              - link "Locations" [ref=e721] [cursor=pointer]:
+                - /url: /company/locations
+                - text: Locations
+                - img [ref=e723]
+            - listitem [ref=e725]:
+              - link "ICF Europe" [ref=e726] [cursor=pointer]:
+                - /url: /company/locations/european-region
+                - text: ICF Europe
+                - img [ref=e728]
+            - listitem [ref=e730]:
+              - link "ICF UK" [ref=e731] [cursor=pointer]:
+                - /url: /company/locations/uk
+                - text: ICF UK
+                - img [ref=e733]
+        - generic [ref=e735]:
+          - link "Careers" [ref=e738] [cursor=pointer]:
+            - /url: /careers
+            - text: Careers
+            - img [ref=e740]
+          - link "Investors" [ref=e744] [cursor=pointer]:
+            - /url: https://investor.icf.com/
+            - text: Investors
+            - img [ref=e746]
+          - generic [ref=e748]:
+            - link "Contact" [ref=e750] [cursor=pointer]:
+              - /url: /contact-us
+              - text: Contact
+              - img [ref=e752]
+            - list [ref=e756]:
+              - listitem [ref=e757]:
+                - link "ICF LinkedIn" [ref=e758] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/icf-international
+                  - img "ICF LinkedIn" [ref=e759]
+              - listitem [ref=e760]:
+                - link "ICF X" [ref=e761] [cursor=pointer]:
+                  - /url: https://twitter.com/ICF
+                  - img "ICF X" [ref=e762]
+              - listitem [ref=e763]:
+                - link "ICF Facebook" [ref=e764] [cursor=pointer]:
+                  - /url: https://www.facebook.com/ThisIsICF/
+                  - img "ICF Facebook" [ref=e765]
+              - listitem [ref=e766]:
+                - link "ICF Instagram" [ref=e767] [cursor=pointer]:
+                  - /url: https://www.instagram.com/thisisicf/
+                  - img "ICF Instagram" [ref=e768]
+    - generic [ref=e770]:
+      - list [ref=e772]:
+        - listitem [ref=e773]:
+          - link "Terms of Use" [ref=e774] [cursor=pointer]:
+            - /url: /legal/terms-of-use
+        - listitem [ref=e775]:
+          - link "Privacy Statement" [ref=e776] [cursor=pointer]:
+            - /url: /legal/privacy-statement
+        - listitem [ref=e777]:
+          - link "Cookie Policy" [ref=e778] [cursor=pointer]:
+            - /url: /legal/cookies-similar-technologies
+        - listitem [ref=e779]:
+          - link "Do Not Sell or Share My Personal Information" [ref=e780] [cursor=pointer]:
+            - /url: /legal/do-not-sell-my-personal-information
+        - listitem [ref=e781]:
+          - link "Limit the Use of My Sensitive Personal Information" [ref=e782] [cursor=pointer]:
+            - /url: /legal/do-not-sell-my-personal-information
+        - listitem [ref=e783]:
+          - link "Accessibility Statement" [ref=e784] [cursor=pointer]:
+            - /url: /legal/accessibility-statement
+        - listitem [ref=e785]:
+          - link "Sitemap" [ref=e786] [cursor=pointer]:
+            - /url: /sitemap
+      - generic [ref=e787]:
+        - generic [ref=e788]:
+          - text: Copyright 2026, ICF International Inc.
+          - text: All Rights Reserved
+        - img "icf" [ref=e789]
+  - generic:
+    - region "Cookie banner" [ref=e790]:
+      - dialog "Privacy" [ref=e791]:
+        - generic [ref=e793]:
+          - generic [ref=e796]: By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts.
+          - generic [ref=e798]:
+            - button "Cookies Settings" [active] [ref=e799] [cursor=pointer]
+            - button "Reject All" [ref=e800] [cursor=pointer]
+            - button "Accept All Cookies" [ref=e801] [cursor=pointer]
+        - button "Close" [ref=e803] [cursor=pointer]
+    - text: Cookies Settings
+```

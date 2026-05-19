@@ -1,48 +1,38 @@
 
 import { LoginPage } from './LoginPage';
-import { ProductsPage } from './ProductsPage';
-import { CartPage } from './CartPage';
-import { CheckoutPage } from './CheckoutPage';
-import { OrderPage } from './OrderPage';
 import { Page } from '@playwright/test';
+import { HomePage } from './HomePage';
+import { FooterPage } from './FooterPage.ts';
+
+
 
 export class POManager {
     loginPage: LoginPage;
-    productsPage: ProductsPage;
-    checkoutPage: CheckoutPage;
-    orderPage: OrderPage;
-    cartPage: CartPage;
     page: Page;
-    
+    homePage: HomePage;
+  readonly footerPage: FooterPage;
 
+ 
     constructor(page: Page) {
         this.page = page;
         this.loginPage = new LoginPage(this.page);
-        this.productsPage = new ProductsPage(this.page);
-        this.cartPage = new CartPage(this.page);
-        this.checkoutPage = new CheckoutPage(this.page);
-        this.orderPage = new OrderPage(this.page);
+            this.homePage = new HomePage(this.page);
+    this.footerPage = new FooterPage(page);
+
     }
 
     getLoginPage() {
         return this.loginPage;
     }
 
-    getProductsPage() {
-        return this.productsPage;
-    }
 
-    getCartPage() {
-        return this.cartPage;
-    }
+    getHomePage() {
+    return this.homePage;
+  }
+  getFooterPage() {
+    return this.footerPage;
+  }
 
-    getCheckoutPage() {
-        return this.checkoutPage;
-    }
-
-    getOrderPage() {
-        return this.orderPage;
-    }
     
 }
 module.exports = { POManager };

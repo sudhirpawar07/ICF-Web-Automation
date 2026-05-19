@@ -1,8 +1,8 @@
 {
     "dev": {
-      "baseURL": "https://www.saucedemo.com/v1/index.html",
+      "baseURL": "https://opti-inte.icf.com/",
       "apiKey": "dev-api-key",
-      "timeout": 20000,
+      "timeout": 50000,
       "backendHostingUrl":"https://reqres.in"
     },
     "qa": {
