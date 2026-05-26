@@ -1,4 +1,5 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
 "","50141","Valid Login - Standard User","chromium","2026-04-05","broken","2026-04-05","Sauce Lab Login Feature","web/saucelab-login.test.ts","",""
-"This test is to validate the login functionality with invalid credentials","50524","Invalid Login Testcases - Locked User","chromium","2026-04-05","broken","2026-04-05","Sauce Lab Login Feature","web/saucelab-login.test.ts","",""
 "","16159","Validate Hero Components","chromium","2026-04-05","passed","2026-04-05","ICF Homepage Hero Block","web/ICF-homepage.test.ts","",""
+"","3096","Validate Footer Complete","chromium","2026-05-26","passed","2026-05-26","Footer Validation - ICF","web/footer.spec.ts","",""
+"This test is to validate the login functionality with invalid credentials","50524","Invalid Login Testcases - Locked User","chromium","2026-04-05","broken","2026-04-05","Sauce Lab Login Feature","web/saucelab-login.test.ts","",""

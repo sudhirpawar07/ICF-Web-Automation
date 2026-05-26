@@ -1,0 +1,8 @@
+✅ Footer link verified: Suppliers -> /code-and-theory/harish/case-study-page
+✅ Footer link verified: Corporate Citizenship -> https://www.google.com/
+✅ Footer link verified: Ethics & Compliance -> https://www.google.com/
+✅ Footer link verified: Data Privacy -> https://www.google.com/
+✅ Social link: facebook-logo.svg -> https://www.icf.com/
+✅ Social link: x-logo.svg -> https://www.icf.com/
+✅ Social link: instagram-logo.svg -> https://www.icf.com/
+✅ Social link: linkedin-logo.svg -> https://www.icf.com/

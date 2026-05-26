@@ -1,0 +1,875 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - alert [ref=e3]
+  - banner [ref=e4]:
+    - generic [ref=e7]:
+      - link "Go to homepage" [ref=e9] [cursor=pointer]:
+        - /url: /
+        - img "BrandLogo.svg" [ref=e10]
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - navigation "Main navigation" [ref=e13]:
+            - list [ref=e14]:
+              - listitem [ref=e15]:
+                - button "Enterprise" [ref=e16] [cursor=pointer]:
+                  - generic [ref=e17]:
+                    - text: Enterprise
+                    - img [ref=e18]
+              - listitem [ref=e20]:
+                - link "Technology" [ref=e21] [cursor=pointer]:
+                  - /url: https://www.icf.com/
+                  - generic [ref=e22]: Technology
+              - listitem [ref=e23]:
+                - button "Insights" [ref=e24] [cursor=pointer]:
+                  - generic [ref=e25]:
+                    - text: Insights
+                    - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "About" [ref=e29] [cursor=pointer]:
+                  - generic [ref=e30]:
+                    - text: About
+                    - img [ref=e31]
+              - listitem [ref=e33]:
+                - link "Careers" [ref=e34] [cursor=pointer]:
+                  - /url: https://careers.icf.com/us/en
+                  - generic [ref=e35]: Careers
+              - listitem [ref=e36]:
+                - link "Investors" [ref=e37] [cursor=pointer]:
+                  - /url: https://investor.icf.com/?_gl=1*38vss7*_gcl_au*MjE2MDU3MzI5LjE3NzQyNDExNTY.
+                  - generic [ref=e38]: Investors
+          - button "Search" [ref=e39] [cursor=pointer]:
+            - img [ref=e40]
+        - paragraph [ref=e43]: A leading global company turning data into insights and innovation into impact, combining unmatched expertise.
+  - main [ref=e44]:
+    - generic [ref=e45]:
+      - region [ref=e46]:
+        - region [ref=e47]:
+          - generic [ref=e49]:
+            - group [ref=e50]:
+              - generic [ref=e51]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img "df313905e2d7795863a7e5830a038249d4241dce.png"
+                - generic [ref=e52]:
+                  - generic [ref=e53]:
+                    - generic [ref=e54]:
+                      - img [ref=e55]
+                      - generic [ref=e57]:
+                        - text: Insight
+                        - generic [ref=e58]: umxaqip
+                    - heading "A new challenge for the U.S. power grid" [level=1] [ref=e59]:
+                      - generic [ref=e60]: A new challenge for the U.S. power grid
+                  - generic [ref=e63]:
+                    - generic [ref=e65]: Extreme weather, distributed generation, and cyber threats are reshaping the grid. We help utilities and federal agencies modernize infrastructure, secure operations, and deliver resilient, data-driven program management.
+                    - link "Read this insight" [ref=e68] [cursor=pointer]:
+                      - /url: https://app-cthl01saasj8k19t001.cms.optimizely.com/ui/cms#context=epi.cms.contentdata:///6
+                      - generic [ref=e69]:
+                        - generic [ref=e70]: Read this insight
+                        - generic [ref=e71]: Read this insight
+                      - img
+            - group [ref=e72]:
+              - generic [ref=e73]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic "A new challenge for the U.S. power grid"
+                - generic [ref=e74]:
+                  - generic [ref=e75]:
+                    - generic [ref=e76]:
+                      - img [ref=e77]
+                      - generic [ref=e79]: Insight 2
+                    - heading "A new challenge for the U.S. power grid" [level=2] [ref=e80]:
+                      - generic [ref=e81]:
+                        - generic [ref=e82]: A
+                        - generic [ref=e83]: new
+                        - generic [ref=e84]: challenge
+                        - generic [ref=e85]: for
+                        - generic [ref=e86]: the
+                        - generic [ref=e87]: U.S.
+                        - generic [ref=e88]: power
+                        - generic [ref=e89]: grid
+                  - generic [ref=e92]:
+                    - generic [ref=e94]:
+                      - generic [ref=e95]: Extreme
+                      - generic [ref=e96]: weather,
+                      - generic [ref=e97]: distributed
+                      - generic [ref=e98]: generation,
+                      - generic [ref=e99]: and
+                      - generic [ref=e100]: cyber
+                      - generic [ref=e101]: threats
+                      - generic [ref=e102]: are
+                      - generic [ref=e103]: reshaping
+                      - generic [ref=e104]: the
+                      - generic [ref=e105]: grid.
+                      - generic [ref=e106]: We
+                      - generic [ref=e107]: help
+                      - generic [ref=e108]: utilities
+                      - generic [ref=e109]: and
+                      - generic [ref=e110]: federal
+                      - generic [ref=e111]: agencies
+                      - generic [ref=e112]: modernize
+                      - generic [ref=e113]: infrastructure,
+                      - generic [ref=e114]: secure
+                      - generic [ref=e115]: operations,
+                      - generic [ref=e116]: and
+                      - generic [ref=e117]: deliver
+                      - generic [ref=e118]: resilient,
+                      - generic [ref=e119]: data-driven
+                      - generic [ref=e120]: program
+                      - generic [ref=e121]: management.
+                    - link "read the insight" [ref=e124] [cursor=pointer]:
+                      - /url: https://app-icog01saasb4i6dt002.cms.optimizely.com/ui/cms?login_hint=n120759%40icf.com#context=epi.cms.contentdata:///27
+                      - generic [ref=e125]:
+                        - generic [ref=e126]: read the insight
+                        - generic [ref=e127]: read the insight
+                      - img
+            - group [ref=e128]:
+              - generic [ref=e129]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic "A new challenge for the U.S. power grid"
+                - generic [ref=e130]:
+                  - generic [ref=e131]:
+                    - generic [ref=e132]:
+                      - img [ref=e133]
+                      - generic [ref=e135]: Insight 3
+                    - heading "A new challenge for the U.S. power grid" [level=2] [ref=e136]:
+                      - generic [ref=e137]:
+                        - generic [ref=e138]: A
+                        - generic [ref=e139]: new
+                        - generic [ref=e140]: challenge
+                        - generic [ref=e141]: for
+                        - generic [ref=e142]: the
+                        - generic [ref=e143]: U.S.
+                        - generic [ref=e144]: power
+                        - generic [ref=e145]: grid
+                  - generic [ref=e148]:
+                    - generic [ref=e150]:
+                      - generic [ref=e151]: Extreme
+                      - generic [ref=e152]: weather,
+                      - generic [ref=e153]: distributed
+                      - generic [ref=e154]: generation,
+                      - generic [ref=e155]: and
+                      - generic [ref=e156]: cyber
+                      - generic [ref=e157]: threats
+                      - generic [ref=e158]: are
+                      - generic [ref=e159]: reshaping
+                      - generic [ref=e160]: the
+                      - generic [ref=e161]: grid.
+                      - generic [ref=e162]: We
+                      - generic [ref=e163]: help
+                      - generic [ref=e164]: utilities
+                      - generic [ref=e165]: and
+                      - generic [ref=e166]: federal
+                      - generic [ref=e167]: agencies
+                      - generic [ref=e168]: modernize
+                      - generic [ref=e169]: infrastructure,
+                      - generic [ref=e170]: secure
+                      - generic [ref=e171]: operations,
+                      - generic [ref=e172]: and
+                      - generic [ref=e173]: deliver
+                      - generic [ref=e174]: resilient,
+                      - generic [ref=e175]: data-driven
+                      - generic [ref=e176]: program
+                      - generic [ref=e177]: management.
+                    - link "Read The Insight" [ref=e180] [cursor=pointer]:
+                      - /url: https://app-cthl01saasj8k19t001.cms.optimizely.com/ui/cms#context=epi.cms.contentdata:///6
+                      - generic [ref=e181]:
+                        - generic [ref=e182]: Read The Insight
+                        - generic [ref=e183]: Read The Insight
+                      - img
+          - generic [ref=e185]:
+            - button "Pause carousel" [ref=e186] [cursor=pointer]:
+              - img
+            - generic [ref=e187]:
+              - progressbar "Slide 1 of 3" [ref=e189]
+              - generic [ref=e194]:
+                - generic [ref=e195]:
+                  - img "client-stories-supporting-image.jpg" [ref=e197]
+                  - generic [ref=e199]:
+                    - generic [ref=e200]: "Up next: A new challenge for the U.S. power grid"
+                    - generic [ref=e201]: A new challenge for the U.S. power grid
+                - generic [ref=e202]:
+                  - button "Previous slide" [ref=e203] [cursor=pointer]:
+                    - img
+                    - generic [ref=e204]: Previous slide
+                  - button "Next slide" [ref=e205] [cursor=pointer]:
+                    - img
+                    - generic [ref=e206]: Next slide
+      - generic [ref=e208]:
+        - generic [ref=e209]:
+          - generic [ref=e212]: Featured Expertise
+          - paragraph [ref=e215]:
+            - generic [ref=e216]:
+              - generic [ref=e217]: O
+              - generic [ref=e218]: u
+              - generic [ref=e219]: r
+            - generic [ref=e220]:
+              - generic [ref=e221]: e
+              - generic [ref=e222]: x
+              - generic [ref=e223]: p
+              - generic [ref=e224]: e
+              - generic [ref=e225]: r
+              - generic [ref=e226]: t
+              - generic [ref=e227]: i
+              - generic [ref=e228]: s
+              - generic [ref=e229]: e
+            - generic [ref=e230]:
+              - generic [ref=e231]: f
+              - generic [ref=e232]: l
+              - generic [ref=e233]: e
+              - generic [ref=e234]: x
+            - generic [ref=e235]:
+              - generic [ref=e236]: a
+              - generic [ref=e237]: c
+              - generic [ref=e238]: r
+              - generic [ref=e239]: o
+              - generic [ref=e240]: s
+              - generic [ref=e241]: s
+            - generic [ref=e243]: a
+            - generic [ref=e244]:
+              - generic [ref=e245]: v
+              - generic [ref=e246]: a
+              - generic [ref=e247]: s
+              - generic [ref=e248]: t
+            - generic [ref=e249]:
+              - generic [ref=e250]: r
+              - generic [ref=e251]: a
+              - generic [ref=e252]: "n"
+              - generic [ref=e253]: g
+              - generic [ref=e254]: e
+            - generic [ref=e255]:
+              - generic [ref=e256]: o
+              - generic [ref=e257]: f
+            - strong [ref=e258]:
+              - generic [ref=e259]:
+                - generic [ref=e260]: i
+                - generic [ref=e261]: "n"
+                - generic [ref=e262]: d
+                - generic [ref=e263]: u
+                - generic [ref=e264]: s
+                - generic [ref=e265]: t
+                - generic [ref=e266]: r
+                - generic [ref=e267]: i
+                - generic [ref=e268]: e
+                - generic [ref=e269]: s
+            - generic [ref=e270]:
+              - generic [ref=e271]: t
+              - generic [ref=e272]: o
+            - generic [ref=e273]:
+              - generic [ref=e274]: d
+              - generic [ref=e275]: e
+              - generic [ref=e276]: l
+              - generic [ref=e277]: i
+              - generic [ref=e278]: v
+              - generic [ref=e279]: e
+              - generic [ref=e280]: r
+            - generic [ref=e281]:
+              - generic [ref=e282]: r
+              - generic [ref=e283]: e
+              - generic [ref=e284]: s
+              - generic [ref=e285]: i
+              - generic [ref=e286]: l
+              - generic [ref=e287]: i
+              - generic [ref=e288]: e
+              - generic [ref=e289]: "n"
+              - generic [ref=e290]: t
+              - generic [ref=e291]: ","
+            - generic [ref=e292]:
+              - generic [ref=e293]: f
+              - generic [ref=e294]: u
+              - generic [ref=e295]: t
+              - generic [ref=e296]: u
+              - generic [ref=e297]: r
+              - generic [ref=e298]: e
+              - generic [ref=e299]: "-"
+              - generic [ref=e300]: r
+              - generic [ref=e301]: e
+              - generic [ref=e302]: a
+              - generic [ref=e303]: d
+              - generic [ref=e304]: "y"
+            - generic [ref=e305]:
+              - generic [ref=e306]: s
+              - generic [ref=e307]: o
+              - generic [ref=e308]: l
+              - generic [ref=e309]: u
+              - generic [ref=e310]: t
+              - generic [ref=e311]: i
+              - generic [ref=e312]: o
+              - generic [ref=e313]: "n"
+              - generic [ref=e314]: s
+            - generic [ref=e315]:
+              - generic [ref=e316]: t
+              - generic [ref=e317]: h
+              - generic [ref=e318]: a
+              - generic [ref=e319]: t
+            - generic [ref=e320]:
+              - generic [ref=e321]: e
+              - generic [ref=e322]: m
+              - generic [ref=e323]: p
+              - generic [ref=e324]: o
+              - generic [ref=e325]: w
+              - generic [ref=e326]: e
+              - generic [ref=e327]: r
+            - generic [ref=e328]:
+              - generic [ref=e329]: c
+              - generic [ref=e330]: o
+              - generic [ref=e331]: m
+              - generic [ref=e332]: m
+              - generic [ref=e333]: u
+              - generic [ref=e334]: "n"
+              - generic [ref=e335]: i
+              - generic [ref=e336]: t
+              - generic [ref=e337]: i
+              - generic [ref=e338]: e
+              - generic [ref=e339]: s
+            - generic [ref=e340]:
+              - generic [ref=e341]: a
+              - generic [ref=e342]: "n"
+              - generic [ref=e343]: d
+            - generic [ref=e344]:
+              - generic [ref=e345]: d
+              - generic [ref=e346]: r
+              - generic [ref=e347]: i
+              - generic [ref=e348]: v
+              - generic [ref=e349]: e
+            - generic [ref=e350]:
+              - generic [ref=e351]: m
+              - generic [ref=e352]: e
+              - generic [ref=e353]: a
+              - generic [ref=e354]: s
+              - generic [ref=e355]: u
+              - generic [ref=e356]: r
+              - generic [ref=e357]: a
+              - generic [ref=e358]: b
+              - generic [ref=e359]: l
+              - generic [ref=e360]: e
+            - generic [ref=e361]:
+              - generic [ref=e362]: p
+              - generic [ref=e363]: u
+              - generic [ref=e364]: b
+              - generic [ref=e365]: l
+              - generic [ref=e366]: i
+              - generic [ref=e367]: c
+            - generic [ref=e368]:
+              - generic [ref=e369]: i
+              - generic [ref=e370]: m
+              - generic [ref=e371]: p
+              - generic [ref=e372]: a
+              - generic [ref=e373]: c
+              - generic [ref=e374]: t
+              - generic [ref=e375]: .
+        - generic [ref=e376]:
+          - list [ref=e378]:
+            - listitem [ref=e379]:
+              - link "Utilities, Utility Planning & Strategy" [ref=e380] [cursor=pointer]:
+                - /url: /
+                - article [ref=e382]:
+                  - img [ref=e384]
+                  - generic [ref=e391]:
+                    - generic [ref=e392]: Utilities
+                    - heading "Utility Planning & Strategy" [level=3] [ref=e393]
+                  - generic [ref=e394]:
+                    - generic [ref=e395]: Leverage the cloud as a platform of innovation and value, taking advantage of its wide range of scalable services to become more efficient.
+                    - link "Read More" [ref=e397]:
+                      - /url: /
+                      - generic [ref=e398]:
+                        - generic [ref=e399]: Read More
+                        - generic [ref=e400]: Read More
+                      - img
+            - listitem [ref=e402]:
+              - link "Health, Federal Health" [ref=e403] [cursor=pointer]:
+                - /url: /
+                - article [ref=e405]:
+                  - img [ref=e407]
+                  - generic [ref=e414]:
+                    - generic [ref=e415]: Health
+                    - heading "Federal Health" [level=3] [ref=e416]
+                  - generic [ref=e417]:
+                    - generic [ref=e418]: Leverage the cloud as a platform of innovation and value, taking advantage of its wide range of scalable services to become more efficient.
+                    - link "Read More" [ref=e420]:
+                      - /url: /
+                      - generic [ref=e421]:
+                        - generic [ref=e422]: Read More
+                        - generic [ref=e423]: Read More
+                      - img
+            - listitem [ref=e425]:
+              - link "Digital Modernization, Technology Platforms & Modernization" [ref=e426] [cursor=pointer]:
+                - /url: /
+                - article [ref=e428]:
+                  - img [ref=e430]
+                  - generic [ref=e437]:
+                    - generic [ref=e438]: Digital Modernization
+                    - heading "Technology Platforms & Modernization" [level=3] [ref=e439]
+                  - generic [ref=e440]:
+                    - generic [ref=e441]: Leverage the cloud as a platform of innovation and value, taking advantage of its wide range of scalable services to become more efficient.
+                    - link "Read More" [ref=e443]:
+                      - /url: /
+                      - generic [ref=e444]:
+                        - generic [ref=e445]: Read More
+                        - generic [ref=e446]: Read More
+                      - img
+            - listitem [ref=e448]:
+              - link "Data, Analytics & AI, Artificial Intelligence" [ref=e449] [cursor=pointer]:
+                - /url: /
+                - article [ref=e451]:
+                  - img [ref=e453]
+                  - generic [ref=e460]:
+                    - generic [ref=e461]: Data, Analytics & AI
+                    - heading "Artificial Intelligence" [level=3] [ref=e462]
+                  - generic [ref=e463]:
+                    - generic [ref=e464]: Leverage the cloud as a platform of innovation and value, taking advantage of its wide range of scalable services to become more efficient.
+                    - link "Read More" [ref=e466]:
+                      - /url: /
+                      - generic [ref=e467]:
+                        - generic [ref=e468]: Read More
+                        - generic [ref=e469]: Read More
+                      - img
+            - listitem [ref=e471]:
+              - link "U.S. Federal Government, Health" [ref=e472] [cursor=pointer]:
+                - /url: /
+                - article [ref=e474]:
+                  - img [ref=e476]
+                  - generic [ref=e483]:
+                    - generic [ref=e484]: U.S. Federal Government
+                    - heading "Health" [level=3] [ref=e485]
+                  - generic [ref=e486]:
+                    - generic [ref=e487]: Leverage the cloud as a platform of innovation and value, taking advantage of its wide range of scalable services to become more efficient.
+                    - link "Read More" [ref=e489]:
+                      - /url: /
+                      - generic [ref=e490]:
+                        - generic [ref=e491]: Read More
+                        - generic [ref=e492]: Read More
+                      - img
+            - listitem [ref=e494]:
+              - link "Program Delivery & Operations, Grants & Funding Management" [ref=e495] [cursor=pointer]:
+                - /url: /
+                - article [ref=e497]:
+                  - img [ref=e499]
+                  - generic [ref=e506]:
+                    - generic [ref=e507]: Program Delivery & Operations
+                    - heading "Grants & Funding Management" [level=3] [ref=e508]
+                  - generic [ref=e509]:
+                    - generic [ref=e510]: Leverage the cloud as a platform of innovation and value, taking advantage of its wide range of scalable services to become more efficient.
+                    - link "Read More" [ref=e512]:
+                      - /url: /
+                      - generic [ref=e513]:
+                        - generic [ref=e514]: Read More
+                        - generic [ref=e515]: Read More
+                      - img
+            - listitem [ref=e517]:
+              - link "Environment, Water" [ref=e518] [cursor=pointer]:
+                - /url: /
+                - article [ref=e520]:
+                  - img [ref=e522]
+                  - generic [ref=e529]:
+                    - generic [ref=e530]: Environment
+                    - heading "Water" [level=3] [ref=e531]
+                  - generic [ref=e532]:
+                    - generic [ref=e533]: Leverage the cloud as a platform of innovation and value, taking advantage of its wide range of scalable services to become more efficient.
+                    - link "Read More" [ref=e535]:
+                      - /url: /
+                      - generic [ref=e536]:
+                        - generic [ref=e537]: Read More
+                        - generic [ref=e538]: Read More
+                      - img
+            - listitem [ref=e540]
+          - generic [ref=e541]:
+            - link "View All Industries" [ref=e543] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e544]:
+                - generic [ref=e545]: View All Industries
+                - generic [ref=e546]: View All Industries
+              - img
+            - link "View All Capabilities" [ref=e548] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e549]:
+                - generic [ref=e550]: View All Capabilities
+                - generic [ref=e551]: View All Capabilities
+              - img
+      - generic [ref=e552]:
+        - generic [ref=e553]:
+          - generic [ref=e556]: Insights
+          - heading "L a t e s t T h i n k i n g" [level=2] [ref=e557]:
+            - generic [ref=e558]:
+              - generic [ref=e559]:
+                - generic [ref=e560]: L
+                - generic [ref=e561]: a
+                - generic [ref=e562]: t
+                - generic [ref=e563]: e
+                - generic [ref=e564]: s
+                - generic [ref=e565]: t
+              - generic [ref=e566]:
+                - generic [ref=e567]: T
+                - generic [ref=e568]: h
+                - generic [ref=e569]: i
+                - generic [ref=e570]: "n"
+                - generic [ref=e571]: k
+                - generic [ref=e572]: i
+                - generic [ref=e573]: "n"
+                - generic [ref=e574]: g
+        - separator [ref=e575]
+        - generic [ref=e576]:
+          - article [ref=e578]:
+            - img "Test Alt Text" [ref=e580]
+            - generic [ref=e581]:
+              - generic [ref=e582]:
+                - generic [ref=e583]:
+                  - generic [ref=e584]:
+                    - text: Article
+                    - text: 8.7.2026
+                  - 'heading "Data governance: Building AI confidence through control and context" [level=3] [ref=e586]':
+                    - 'link "Data governance: Building AI confidence through control and context" [ref=e587] [cursor=pointer]':
+                      - /url: /insights/data-governance
+                - paragraph [ref=e588]: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt ante in odio semper vestibulum. Aenean augue lacus, feugiat in sapien et, luctus lobortis orci.
+              - link [ref=e590] [cursor=pointer]:
+                - /url: /insights/data-governance
+                - img
+          - generic [ref=e591]:
+            - generic [ref=e592]:
+              - article [ref=e593]:
+                - generic [ref=e595]:
+                  - generic [ref=e596]:
+                    - text: Webcast
+                    - text: 8.7.2026
+                  - heading "State and local strategies to build energy programs in any funding environment" [level=3] [ref=e598]:
+                    - link "State and local strategies to build energy programs in any funding environment" [ref=e599] [cursor=pointer]:
+                      - /url: /insights/state-and-local-strategies
+                - link [ref=e601] [cursor=pointer]:
+                  - /url: /insights/state-and-local-strategies
+                  - img
+              - article [ref=e602]:
+                - generic [ref=e603]:
+                  - img "Frame 2147250101.png" [ref=e605]
+                  - generic [ref=e606]:
+                    - generic [ref=e607]:
+                      - text: Article
+                      - text: 8.7.2026
+                    - heading "How utilities can harness AI to drive customer engagement and operational excellence" [level=3] [ref=e609]:
+                      - link "How utilities can harness AI to drive customer engagement and operational excellence" [ref=e610] [cursor=pointer]:
+                        - /url: /insights/utilities-harness-ai
+                - link [ref=e612] [cursor=pointer]:
+                  - /url: /insights/utilities-harness-ai
+                  - img
+              - article [ref=e613]:
+                - generic [ref=e614]:
+                  - img "Rectangle 3469701.png" [ref=e616]
+                  - generic [ref=e617]:
+                    - generic [ref=e618]:
+                      - text: Article
+                      - text: 8.7.2026
+                    - 'heading "Prioritize what matters: A smarter path to AI adoption" [level=3] [ref=e620]':
+                      - 'link "Prioritize what matters: A smarter path to AI adoption" [ref=e621] [cursor=pointer]':
+                        - /url: /insights/prioritize
+                - link [ref=e623] [cursor=pointer]:
+                  - /url: /insights/prioritize
+                  - img
+            - link "View all insights" [ref=e624] [cursor=pointer]:
+              - /url: /insights/state-and-local-strategies
+              - generic [ref=e625]:
+                - generic [ref=e626]: View all insights
+                - generic [ref=e627]: View all insights
+              - img
+      - generic [ref=e629]:
+        - generic [ref=e630]:
+          - paragraph [ref=e631]:
+            - img [ref=e632]
+            - text: About
+          - heading "ICF is a leading global solutions and technology provider. We combine unmatched expertise with cutting-edge technology to help clients solve their most complex challenges, navigate change, and shape the future." [level=2] [ref=e634]
+        - generic [ref=e637]:
+          - generic [ref=e638]:
+            - img "Image.png" [ref=e639]
+            - generic:
+              - img
+          - generic [ref=e640]:
+            - paragraph [ref=e642]: ICF was founded on a mission to tackle complex public- and private‑sector challenges and has grown into a global firm led by experienced practitioners and technologists. Our leadership blends deep technical know‑how with program and policy experience and fosters a culture that prizes curiosity, accountability, and collaborative problem‑solving. We invest in pragmatic innovation, ethical decision‑making, and long‑term partnerships, translating research and technology into measurable outcomes. That heritage of disciplined delivery and public‑service orientation guides how we recruit, develop leaders, and steward client relationships worldwide.
+            - link "More About Us" [ref=e645] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e646]:
+                - generic [ref=e647]: More About Us
+                - generic [ref=e648]: More About Us
+              - img
+      - generic [ref=e653]:
+        - generic [ref=e654]:
+          - generic [ref=e655]:
+            - paragraph [ref=e658]: Case Studies
+            - paragraph [ref=e661]:
+              - generic [ref=e662]:
+                - generic [ref=e663]: P
+                - generic [ref=e664]: r
+                - generic [ref=e665]: o
+                - generic [ref=e666]: v
+                - generic [ref=e667]: e
+                - generic [ref=e668]: "n"
+              - generic [ref=e669]:
+                - generic [ref=e670]: r
+                - generic [ref=e671]: e
+                - generic [ref=e672]: s
+                - generic [ref=e673]: u
+                - generic [ref=e674]: l
+                - generic [ref=e675]: t
+                - generic [ref=e676]: s
+              - generic [ref=e677]:
+                - generic [ref=e678]: f
+                - generic [ref=e679]: o
+                - generic [ref=e680]: r
+              - strong [ref=e681]:
+                - generic [ref=e682]:
+                  - generic [ref=e683]: c
+                  - generic [ref=e684]: l
+                  - generic [ref=e685]: i
+                  - generic [ref=e686]: e
+                  - generic [ref=e687]: "n"
+                  - generic [ref=e688]: t
+                  - generic [ref=e689]: s
+              - generic [ref=e690]:
+                - generic [ref=e691]: a
+                - generic [ref=e692]: c
+                - generic [ref=e693]: r
+                - generic [ref=e694]: o
+                - generic [ref=e695]: s
+                - generic [ref=e696]: s
+              - generic [ref=e697]:
+                - generic [ref=e698]: s
+                - generic [ref=e699]: e
+                - generic [ref=e700]: c
+                - generic [ref=e701]: t
+                - generic [ref=e702]: o
+                - generic [ref=e703]: r
+                - generic [ref=e704]: s
+                - generic [ref=e705]: .
+              - generic [ref=e706]:
+                - generic [ref=e707]: D
+                - generic [ref=e708]: e
+                - generic [ref=e709]: m
+                - generic [ref=e710]: o
+                - generic [ref=e711]: "n"
+                - generic [ref=e712]: s
+                - generic [ref=e713]: t
+                - generic [ref=e714]: r
+                - generic [ref=e715]: a
+                - generic [ref=e716]: t
+                - generic [ref=e717]: e
+                - generic [ref=e718]: d
+              - generic [ref=e719]:
+                - generic [ref=e720]: w
+                - generic [ref=e721]: o
+                - generic [ref=e722]: r
+                - generic [ref=e723]: k
+              - generic [ref=e724]:
+                - generic [ref=e725]: t
+                - generic [ref=e726]: h
+                - generic [ref=e727]: a
+                - generic [ref=e728]: t
+              - generic [ref=e729]:
+                - generic [ref=e730]: d
+                - generic [ref=e731]: e
+                - generic [ref=e732]: l
+                - generic [ref=e733]: i
+                - generic [ref=e734]: v
+                - generic [ref=e735]: e
+                - generic [ref=e736]: r
+                - generic [ref=e737]: s
+              - generic [ref=e738]:
+                - generic [ref=e739]: m
+                - generic [ref=e740]: e
+                - generic [ref=e741]: a
+                - generic [ref=e742]: s
+                - generic [ref=e743]: u
+                - generic [ref=e744]: r
+                - generic [ref=e745]: a
+                - generic [ref=e746]: b
+                - generic [ref=e747]: l
+                - generic [ref=e748]: e
+              - generic [ref=e749]:
+                - generic [ref=e750]: i
+                - generic [ref=e751]: m
+                - generic [ref=e752]: p
+                - generic [ref=e753]: a
+                - generic [ref=e754]: c
+                - generic [ref=e755]: t
+                - generic [ref=e756]: .
+          - link "View All Case Studies" [ref=e758] [cursor=pointer]:
+            - /url: /case-studies
+            - generic [ref=e759]:
+              - generic [ref=e760]: View All Case Studies
+              - generic [ref=e761]: View All Case Studies
+            - img
+        - list "Case studies" [ref=e763]:
+          - listitem [ref=e764]:
+            - 'link "California Resources Corporation: HQ, everywhere" [ref=e765] [cursor=pointer]':
+              - /url: /case-studies/california-resources-corporation
+              - img "california.png" [ref=e766]
+              - generic [ref=e767]:
+                - generic [ref=e768]:
+                  - paragraph [ref=e769]: Capabilities
+                  - paragraph [ref=e770]: "California Resources Corporation: HQ, everywhere"
+                - img [ref=e772]
+          - listitem [ref=e774]:
+            - 'link "Belize Tourism Board: Putting Belize on the map" [ref=e775] [cursor=pointer]':
+              - /url: /case-studies/belize-tourism-board
+              - img "Rectangle 1134259975.png" [ref=e777]
+              - generic [ref=e778]:
+                - generic [ref=e779]:
+                  - generic [ref=e780]:
+                    - text: Capabilities
+                    - text: 8.7.2026
+                  - paragraph [ref=e782]: "Belize Tourism Board: Putting Belize on the map"
+                - img [ref=e784]
+          - listitem [ref=e786]:
+            - link "How the Canadian Red Cross sounded the alarm on drownings" [ref=e787] [cursor=pointer]:
+              - /url: /case-studies/canadian-red-cross
+              - img "Rectangle 11342599752.png" [ref=e789]
+              - generic [ref=e790]:
+                - generic [ref=e791]:
+                  - generic [ref=e792]:
+                    - text: Capabilities
+                    - text: 8.7.2026
+                  - paragraph [ref=e794]: How the Canadian Red Cross sounded the alarm on drownings
+                - img [ref=e796]
+          - listitem [ref=e798]:
+            - 'link "European Commission: Product safety" [ref=e799] [cursor=pointer]':
+              - /url: /case-studies/european-commission
+              - img "Rectangle 11342599753.png" [ref=e801]
+              - generic [ref=e802]:
+                - generic [ref=e803]:
+                  - generic [ref=e804]:
+                    - text: Capabilities
+                    - text: 8.7.2026
+                  - paragraph [ref=e806]: "European Commission: Product safety"
+                - img [ref=e808]
+      - generic [ref=e816]:
+        - heading "Careers" [level=2] [ref=e817]
+        - generic [ref=e818]:
+          - paragraph [ref=e820]: Join teams that tackle real-world challenges. Grow through mentorship, meaningful work, and clear career progression.
+          - link "Explore Career Opportunities" [ref=e823] [cursor=pointer]:
+            - /url: https://careers.icf.com/
+            - generic [ref=e824]:
+              - generic [ref=e825]: Explore Career Opportunities
+              - generic [ref=e826]: Explore Career Opportunities
+            - img
+  - contentinfo [ref=e830]:
+    - generic [ref=e831]:
+      - generic [ref=e832]:
+        - img "BrandLogo.svg" [ref=e834]
+        - generic [ref=e835]:
+          - generic [ref=e836]:
+            - heading "Featured Expertise" [level=3] [ref=e837]
+            - navigation "Featured Expertise links" [ref=e839]:
+              - list [ref=e840]:
+                - listitem [ref=e841]:
+                  - link "Utilities" [ref=e842] [cursor=pointer]:
+                    - /url: https://www.icf.com/
+                - listitem [ref=e843]:
+                  - link "Energy" [ref=e844] [cursor=pointer]:
+                    - /url: https://www.google.com/
+                - listitem [ref=e845]:
+                  - link "Health" [ref=e846] [cursor=pointer]:
+                    - /url: /code-and-theory/aatish/environment
+                - listitem [ref=e847]:
+                  - link "U.S. Federal Government" [ref=e848] [cursor=pointer]:
+                    - /url: https://www.icf.com/
+                - listitem [ref=e849]:
+                  - link "Strategy, Policy & Advisory" [ref=e850] [cursor=pointer]:
+                    - /url: https://www.google.com/
+                - listitem [ref=e851]:
+                  - link "Data, Analytics & AI" [ref=e852] [cursor=pointer]:
+                    - /url: https://www.google.com/
+                - listitem [ref=e853]:
+                  - link "Digital modernization" [ref=e854] [cursor=pointer]:
+                    - /url: https://www.icf.com/
+          - generic [ref=e855]:
+            - heading "Insights" [level=3] [ref=e856]
+            - navigation "Insights links" [ref=e858]:
+              - list [ref=e859]:
+                - listitem [ref=e860]:
+                  - link "Article & Reports" [ref=e861] [cursor=pointer]:
+                    - /url: https://www.google.com/
+                - listitem [ref=e862]:
+                  - link "Case Studies" [ref=e863] [cursor=pointer]:
+                    - /url: https://www.google.com/
+                - listitem [ref=e864]:
+                  - link "Events and Webinars" [ref=e865] [cursor=pointer]:
+                    - /url: https://www.google.com/
+                - listitem [ref=e866]:
+                  - link "News" [ref=e867] [cursor=pointer]:
+                    - /url: https://www.google.com/
+          - generic [ref=e868]:
+            - heading "About" [level=3] [ref=e869]
+            - navigation "About links" [ref=e871]:
+              - list [ref=e872]:
+                - listitem [ref=e873]:
+                  - link "About ICF" [ref=e874] [cursor=pointer]:
+                    - /url: https://www.icf.com/
+                - listitem [ref=e875]:
+                  - link "Leadership" [ref=e876] [cursor=pointer]:
+                    - /url: https://www.google.com/
+                - listitem [ref=e877]:
+                  - link "Locations" [ref=e878] [cursor=pointer]:
+                    - /url: https://www.google.com/
+                - listitem [ref=e879]:
+                  - link "Press Releases" [ref=e880] [cursor=pointer]:
+                    - /url: https://www.google.com/
+                - listitem [ref=e881]:
+                  - link "Contact Us" [ref=e882] [cursor=pointer]:
+                    - /url: https://www.google.com/
+      - generic [ref=e883]:
+        - generic [ref=e886]:
+          - navigation "Utility links" [ref=e887]:
+            - list [ref=e888]:
+              - listitem [ref=e889]:
+                - link "Suppliers" [ref=e890] [cursor=pointer]:
+                  - /url: /code-and-theory/harish/case-study-page
+              - listitem [ref=e892]:
+                - link "Corporate Citizenship" [ref=e893] [cursor=pointer]:
+                  - /url: https://www.google.com/
+              - listitem [ref=e895]:
+                - link "Ethics & Compliance" [ref=e896] [cursor=pointer]:
+                  - /url: https://www.google.com/
+              - listitem [ref=e898]:
+                - link "Data Privacy" [ref=e899] [cursor=pointer]:
+                  - /url: https://www.google.com/
+          - navigation "Social media links" [ref=e900]:
+            - list [ref=e901]:
+              - listitem [ref=e902]:
+                - link "facebook-logo.svg" [ref=e903] [cursor=pointer]:
+                  - /url: https://www.icf.com/
+                  - img "facebook-logo.svg" [ref=e904]
+              - listitem [ref=e905]:
+                - link "x-logo.svg" [ref=e906] [cursor=pointer]:
+                  - /url: https://www.icf.com/
+                  - img "x-logo.svg" [ref=e907]
+              - listitem [ref=e908]:
+                - link "instagram-logo.svg" [ref=e909] [cursor=pointer]:
+                  - /url: https://www.icf.com/
+                  - img "instagram-logo.svg" [ref=e910]
+              - listitem [ref=e911]:
+                - link "linkedin-logo.svg" [ref=e912] [cursor=pointer]:
+                  - /url: https://www.icf.com/
+                  - img "linkedin-logo.svg" [ref=e913]
+        - generic [ref=e916]:
+          - generic [ref=e917]: © 2026 ICF International Inc. | All Rights Reserved
+          - navigation "Legal and utility links" [ref=e918]:
+            - list [ref=e919]:
+              - listitem [ref=e920]:
+                - link "Privacy Statement" [ref=e921] [cursor=pointer]:
+                  - /url: /code-and-theory/harish/case-study-page
+              - listitem [ref=e923]:
+                - link "Terms of Use" [ref=e924] [cursor=pointer]:
+                  - /url: https://www.google.com/
+              - listitem [ref=e926]:
+                - link "Cookie Policy" [ref=e927] [cursor=pointer]:
+                  - /url: https://www.google.com/
+              - listitem [ref=e929]:
+                - link "Site Map" [ref=e930] [cursor=pointer]:
+                  - /url: https://www.google.com/
+              - listitem [ref=e932]:
+                - link "Cookie Settings" [ref=e933] [cursor=pointer]:
+                  - /url: https://www.google.com/
+```

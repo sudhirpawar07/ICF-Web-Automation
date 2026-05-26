@@ -1,0 +1,19 @@
+locator('footer').locator('h3:has-text("FEATURED EXPERTISE")')
+locator('footer').locator('h3:has-text("INSIGHTS")')
+locator('footer').locator('h3:has-text("ABOUT")')
+Utilities
+Energy
+Health
+U.S. Federal Government
+Strategy, Policy & Advisory
+Data, Analytics & AI
+Digital modernization 
+Article & Reports
+Case Studies
+Events and Webinars
+News
+About ICF
+Leadership
+Locations
+Press Releases
+Contact Us
